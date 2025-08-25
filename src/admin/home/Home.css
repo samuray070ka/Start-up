@@ -1,0 +1,165 @@
+.home{
+    width: 99%;
+    height: 87vh;
+    background-color: rgb(255, 255, 157);
+    border: 5px solid #222;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.mySwiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper_box{
+    width: 100%;
+    height: 100%;
+    background: url(../assets/gettyimages-1152338762-640x640.jpg) no-repeat center/cover;
+    color: rgb(255, 255, 157);
+}
+.dark{
+    width: 100%;
+    height: 100%;
+    background-color: #0000007c;
+    padding: 20px 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top:0;
+    left:0;
+}
+.dark h2{
+    margin-bottom: 20px;
+}
+.dark button{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #222;
+    color: rgb(255, 255, 157);
+    cursor: pointer;
+    transition: .3s;
+}
+.dark button:hover{
+    background-color: rgb(255, 255, 157);
+    color: #222;
+}
+.filter{
+    width: 98%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 157);
+}
+.filter_btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #222;
+    color: rgb(255, 255, 157);
+    cursor: pointer;
+    transition: .3s;
+}
+.select{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #222;
+    color: rgb(255, 255, 157);
+    cursor: pointer;
+    transition: .3s;
+    padding: 0 15px;
+}
+.all{
+    width: 98%;
+    background-color: rgb(255, 255, 157);
+    border: 5px solid #222;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.all_box{
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.right{
+    width: 38%;
+}
+.all_box img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.all_box h1{
+    font-size: 25px;
+}
+.nick{
+    width: 98%;
+    height: 60px;
+    background-color: rgb(255, 255, 157);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.nick_btn{
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #222;
+    color: rgb(255, 255, 157);
+    cursor: pointer;
+    transition: .3s;
+}
+.nick_list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nick_item{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: rgb(255, 255, 157);
+    transition: .3s;
+    cursor: pointer;
+}
+.nick_item:hover{
+    background-color: rgb(255, 255, 157);
+    color: #222;
+    border: 1px solid #222;
+}
