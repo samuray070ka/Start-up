@@ -98,7 +98,7 @@ function Home() {
           <option value="all">Barcha yangiliklar</option>
           <option value="today">Yaqinda kiritilgan yangiliklar</option>
           <option value="cs1.6">Counter Strike 1.6 yangiliklar</option>
-          <option value="zapallar">Zapallar</option>
+          {/* <option value="zapallar">Zapallar</option> */}
           <option value="yangiliklar">Yangiliklar</option>
         </select>
       </div>
@@ -125,12 +125,11 @@ function Home() {
             <button className='nick_item'>m1</button>
             <button className='nick_item'>999</button>
             <button className='nick_item'>12</button>
-            <button className='nick_item'>51</button>
-            <button className='nick_item'>123</button>
-            <button className='nick_item'>32131</button>
-            <button className='nick_item'>10</button>
-            <button className='nick_item'>99</button>
-            <button className='nick_item'>m2</button>
+            <button className='nick_item'>15</button>
+            <button className='nick_item'>707</button>
+            <button className='nick_item'>523</button>
+            <button className='nick_item'>111</button>
+            <button className='nick_item'>222</button>
         </div>
       </div>
     </>
