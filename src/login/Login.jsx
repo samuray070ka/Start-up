@@ -33,6 +33,8 @@ function Login() {
 
       if (result.success) {
         localStorage.setItem("token", result.token);
+        const name_res = ism.charAt(0).toUpperCase() + ism.slice(1).toLowerCase();
+        localStorage.setItem("name", name_res);
         setXabar("✅ Muvaffaqiyatli kirdingiz!");
         navigate("/"); // Home sahifaga yo‘naltirish
       } else {
